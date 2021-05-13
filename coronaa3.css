@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    padding: 23px;
+    background-color: black;
+}
+
+.item {
+    padding: 3px 8px;
+    list-style: none;
+
+}
+
+.item a{
+    padding: 18px 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.container {
+    opacity: 0.9;
+    padding: 46px;
+    margin: 12px auto;
+    max-width: 69%;
+    height: 300vh;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.item a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+
+body {
+    background: url(https://wallpaperaccess.com/full/624111.jpg);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Righteous', cursive;
+    padding: 23px 0;
+}
+
+p {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+}
+
+.head {
+    color: red;
+}
+.board {
+    column-count: 3;
+    column-gap: 1rem;
+}
+.container h2 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+img#flag {
+    height: 20px;
+    width: 20px;
+}
+.card {
+    width: 84%;
+    background: #ccc;
+    padding: 8%;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    color: #fff;
+}
+.card.a {
+    background: #41a7ff;
+}
+.card.cr {
+    background: #ff3434;
+}
+.card.r {
+    background: #32b336;
+}
+.card.ca {
+    background: #d83f3f;
+}
+.card.d {
+    background: #ff0053;
+}
+.card.t {
+    background: #ffa501;
+}
+.card h5 {
+    margin: 0;
+    font-size: 1rem;
+}
+.card span {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+

@@ -1,0 +1,237 @@
+body{
+background: url(https://wallpaperaccess.com/full/624111.jpg);
+}
+.a{
+border: 1px solid #dadce0;
+border-radius: 8px;
+margin-top: 12px;
+background-image: url(https://lh4.googleusercontent.com/vqHByUiu_Nk8KgNN9BUhKfsLzaHfuvFUCNMTTJVoY2iEm8ood2YiK5JCJGZrgvrJCsMJfEZuA848H_rmf6rIQDkWesW_gADfL-4g5mugemUOqwyFMA_LNOreU8MD=w1200);
+background-size: cover;
+background-position: center;
+margin-left: 320px;
+ margin-right: 320px;
+     max-height: 22.5vw;
+    max-width: 90vw;
+    height: 150px;
+    width: 665px;
+}
+
+.b1
+{  
+    margin-top: 12px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    padding: 24px;
+    padding-top: 6px;
+	max-height: 22.5vw;
+    max-width: 90vw;
+    position: relative;
+    margin-left: 320px; 
+    margin-right: 338px;	
+}
+
+
+ .stripe {
+	background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: calc(100% + 2px);
+}
+
+h1{
+       font-family: 'Google Sans',Roboto,Arial,sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #202124;
+}
+
+.b{opacity: 0.9;
+font-family: 'Google Sans';
+border: 1px solid #dadce0;
+border-radius: 8px;
+margin-top: 12px;
+margin-left: 320px; 
+margin-right: 320px;
+background-color: #fff;
+margin-bottom: 12px;
+box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+padding: 24px;
+}
+.l1{ width: calc(100% + 2px);
+	left: -13px;
+	top: -1px;
+	right: -11px;
+	background-color: black;
+	font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    letter-spacing: .2px;
+    line-height: 34px;
+
+    font-weight: 400;
+   
+    color: #fff;	
+	padding:0px;
+    padding-bottom: 6px;
+    margin-bottom: 24px;
+	position:relative;
+	margin-left:0px;
+	margin-right:0px;
+
+}
+
+.c1
+{
+font-family: 'Google Sans';
+border: 1px solid #dadce0;
+border-radius: 8px;
+margin-top: 0px;
+margin-left: 320px; 
+margin-right: 338px;
+background-color: #fff;
+margin-bottom: 12px;
+box-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+padding:24px;
+}
+
+.r{
+	
+	border: solid 2px;
+	border-radius: 50%;
+   border-color: rgb(191, 104, 0);
+    left: 50%;
+    top: 50%;
+	cursor:pointer;
+	 height: 18px;
+  width: 18px;
+shadow: 0 1px 4px 0 rgba(0,0,0,0.37);	  
+}
+input[type=checkbox]
+{
+	border: solid 2px;
+	border-radius: 50%;
+    left: 50%;
+    top: 50%;
+	cursor:pointer;
+	 height: 18px;
+  width: 18px; 
+  border-color: black;  
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);	
+	
+}
+input[type=text]{
+border:none;
+display:block;
+border-bottom:display;	
+
+}
+input[type=number]{
+border:none;
+display:block;
+border-bottom:display;	
+}	
+select{
+	border-radius:4px;
+	height: 60px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+	font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+	border: 1px solid #dadce0;
+    width: 220px;
+    padding-right: 48px;
+	cursor: pointer;
+   
+    outline: none;
+    
+    padding-left: 16px;
+    padding-right: 24px;
+    position: relative;
+    text-align: left;  
+}
+ select:required:invalid {
+    color: #dadce0;
+}
+option[value=""][disabled] {
+    display: none;
+}
+.next{
+background-color:white;
+border-radius:8px;
+border: 1px solid #dadce0;	
+cursor: pointer;
+padding: 10px 24px;
+ letter-spacing: .2px;
+margin-left: 320px;
+color: rgb(191, 104, 0);
+font-weight: 700;
+}
+
+.next1{
+background-color:white;
+border-radius:8px;
+border: 1px solid #dadce0;	
+cursor: pointer;
+padding: 10px 24px;
+ letter-spacing: .2px;
+
+color: rgb(191, 104, 0);
+font-weight: 700;
+}
+.s1
+{
+background-color:white;
+border-radius:8px;
+border: 1px solid #dadce0;	
+cursor: pointer;
+padding: 10px 24px;
+ letter-spacing: .2px;
+margin-left: 320;
+color: rgb(191, 104, 0);
+font-weight: 700;
+}
+.r1
+{
+bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    right: 10px;
+    top: 10px;
+    border:black solid 2px;
+    border-color: black;
+    border-radius: 50%;
+    margin-left:40px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;	
+}
+.container{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: #202124;
+    overflow: hidden;
+    position: relative;
+       border-radius: 8px;
+	    
+    margin-bottom: 12px;
+    display: table;
+    width: 100%;
+   border-spacing:0 4px;
+}
+.box{
+   background-color: #f8f9fa;
+	 
+		  
+}

@@ -1,0 +1,263 @@
+<html>
+<head>
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="coronaform.css">
+<script type="text/javascript" src="corona.js">
+</script>
+
+</head>
+<body>
+
+<div >
+<fieldset class="a" >
+</fieldset>
+</div>
+<div>
+<form style="align:center;"   action="file:///C:/Users/dell/Desktop/secondpage.html">
+<fieldset class='b' style="align:center;" required>
+<p><h1>COVID-19 and You</h1>
+Thank you for participating in “Psychology of a global pandemic: COVID-19” a research project being conducted by Chitkara University.</p>
+<p>This questionnaire has been designed to assess your awareness of COVID-19, stress and anxiety due to it, and it’s affect on your daily routine.<br>
+</p>
+Details collected during the project will be used solely for research purposes. Your information will be kept confidential and no one will have access to it. Participating in the study is free will.<br>
+<p>
+We request you to participate sincerely and contribute towards the noble cause. We appreciate your cooperation.<br>
+</p>
+<p>It won’t take more than 5-7 minutes. In case of any query feel free to contact . <br>
+</p>
+<p>
+Investigators :<br><br>
+Neha Garg - <br>
+|+917888611710 | or | neha0408.cse18@chitkara.edu.in |
+</p>
+<p>
+Jigyasa - <br>
+|+917528023793 | or | jigyasa1203.cse18@chitkara.edu.in |
+
+<p style="color: #d93025;">*Required</p>
+</fieldset >
+<fieldset class='b' required >
+I give my consent for my participation in the study and to use the data I provide for research and educational purpose. *
+<br><br>
+<input class="r" type="radio" name="consent"  required> &nbsp;Yes
+<br><br>
+<input class="r" type="radio" name="consent"> &nbsp;No
+<br>
+</fieldset >
+
+<fieldset class="b"  required >
+Name *<br><br>
+<input type="text" id="user" name="user" onblur="return validation();" placeholder="Your answer" required >
+<span id="namePrompt">&nbsp;</span>
+</fieldset>
+
+<fieldset class="b" required >
+Age(in years) *<br><br>
+<input id="age" name="age" type="number" placeholder="Your answer" onblur="return validateAge();" required min="10" >
+<span id="age1">&nbsp;</span>
+</fieldset>
+<fieldset class="b" required >
+Sex *
+<br><br>
+<input class="r" type="radio" name="sex" required> &nbsp;Female
+<br><br>
+<input class="r" type="radio" name="sex"> &nbsp;Male
+<br><br>
+<input class="r" type="radio" name="sex"> &nbsp;Other
+<br>
+</fieldset>
+<fieldset class="b" required >
+State you are currently living in- *
+<br><br>
+<select id="state" name="state"  required placeholder="Choose" value="Choose">
+ <option value="" disabled selected>Choose</option>
+<option value="Andra Pradesh">Andra Pradesh</option>
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+   <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+   <option value="Assam">Assam</option>
+   <option value="Bihar">Bihar</option>
+    <option value="Chandigarh">Chandigarh</option>
+   <option value="Chhattisgarh">Chhattisgarh</option>
+   <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+   <option value="Daman and Diu">Daman and Diu</option>
+     <option value="Delhi">Delhi</option>
+   <option value="Goa">Goa</option>
+   <option value="Gujarat">Gujarat</option>
+   <option value="Haryana">Haryana</option>
+   <option value="Himachal Pradesh">Himachal Pradesh</option>
+   <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+   <option value="Jharkhand">Jharkhand</option>
+   <option value="Karnataka">Karnataka</option>
+   <option value="Kerala">Kerala</option>
+      <option value="Lakshadeep">Lakshadeep</option>
+   <option value="Madya Pradesh">Madya Pradesh</option>
+   <option value="Maharashtra">Maharashtra</option>
+   <option value="Manipur">Manipur</option>
+   <option value="Meghalaya">Meghalaya</option>
+   <option value="Mizoram">Mizoram</option>
+   <option value="Nagaland">Nagaland</option>
+   <option value="Orissa">Orissa</option>
+   <option value="Punjab">Punjab</option>
+  <option value="Pondicherry">Pondicherry</option>
+   <option value="Rajasthan">Rajasthan</option>
+   <option value="Sikkim">Sikkim</option>
+   <option value="Tamil Nadu">Tamil Nadu</option>
+   <option value="Telagana">Telagana</option>
+   <option value="Tripura">Tripura</option>
+   <option value="Uttaranchal">Uttaranchal</option>
+   <option value="Uttar Pradesh">Uttar Pradesh</option>
+   <option value="West Bengal">West Bengal</option>
+</select>
+</fieldset>
+<fieldset class="b" required  >
+Please select the highest level of education you've completed! *
+<br><br>
+<select id="state" name="state" placeholder="Choose" value="Choose" required>
+<option value="" disabled selected>Choose</option>
+<option value="">Graduate or above</option>
+<option value="">12th pass</option>
+<option value="">Some basic education</option>
+<option value="">Illiterate</option>
+</select>
+</fieldset>
+
+<fieldset class="b" required >
+Are you getting paid from your job during the lockdown? *
+<br><br>
+<input  class="r" type="radio" name="job" required> &nbsp;Yes
+<br><br>
+<input class="r" type="radio" name="job"> &nbsp;No
+<br><br>
+<input type="radio"  class="r" name="job"> &nbsp;I don’t have a job
+
+</fieldset>
+<fieldset class="b" required >
+What are your sources of information for the Covid-19 related data? *
+<br><br>
+<input type="checkbox"  > &nbsp;Internet
+<br><br>
+<input type="checkbox" > &nbsp;Social Media
+<br><br>
+<input type="checkbox" > &nbsp;Specialised apps like Aarogya Setu
+<br><br>
+<input type="checkbox" > &nbsp;TV News channels
+<br><br>
+<input type="checkbox" > &nbsp;Through family and friends
+<br><br>
+<input type="checkbox" > &nbsp;I have no source of information
+<br><br>
+<input type="checkbox" > &nbsp;Other
+
+</fieldset>
+<fieldset class="b" required >
+Have you experienced any of the following physical symptoms in the past 14 days? *
+<br><br>
+<input type="checkbox"> &nbsp;Fever
+<br><br>
+<input type="checkbox" > &nbsp;Chills
+<br><br>
+<input type="checkbox" > &nbsp;Headache
+<br><br>
+<input type="checkbox" > &nbsp;Body pain (Myalgia)
+<br><br>
+<input type="checkbox" > &nbsp;Cough
+<br><br>
+<input type="checkbox" > &nbsp;Difficulty in breathing
+<br><br>
+<input type="checkbox" > &nbsp;Sore throat
+<br><br>
+<input type="checkbox" > &nbsp;No, I didn't experience any of them
+<br><br>
+<input type="checkbox" > &nbsp;Other
+</fieldset>
+
+<fieldset class="b" required >
+How often do you check the number of confirmed COVID-19 cases and deaths? *
+<br><br>
+<input class="r" type="radio" name="check" required> &nbsp;More than one time a day
+<br><br>
+<input class="r" type="radio" name="check"> &nbsp;Once a day
+<br><br>
+<input class="r" type="radio" name="check"> &nbsp;3-6 times a week
+<br><br>
+<input type="radio" class="r" name="check"> &nbsp;1-2 times a week
+<br><br>
+<input class="r" type="radio" name="check"> &nbsp;I don’t like getting updated with the same
+
+</fieldset>
+<fieldset class="b" required >
+How far from you is the nearest confirmed case? *
+<br><br>
+<input type="radio" class="r" name="near" required> &nbsp;Within 200 m
+<br><br>
+<input type="radio" class="r" name="near"> &nbsp;200 m to 1 km
+<br><br>
+<input type="radio" class="r" name="near"> &nbsp;1-5 kms
+<br><br>
+<input type="radio" class="r"  name="near"> &nbsp;More than 5 kms
+<br><br>
+<input type="radio" class="r" name="near"> &nbsp;I'm not sure
+</fieldset>
+<fieldset class="b" required >
+Do you personally know any COVID-19 patient? *
+<br><br>
+<input type="radio" class="r"  name="case"> &nbsp;Yes, someone in my family
+<br><br>
+<input type="radio" class="r" name="case"> &nbsp;Yes, someone in my relatives
+<br><br>
+<input type="radio" class="r" name="case"> &nbsp;Yes, some co-worker/classmate
+<br><br>
+<input type="radio" class="r" name="case"> &nbsp;No
+<br><br>
+<input type="radio" class="r" name="case"> &nbsp;I'm not sure
+</fieldset>
+<fieldset class="b" required >
+Have you ever had any contact with a confirmed case? *
+<br><br>
+<input type="radio" class="r" name="contact" required> &nbsp;Yes,primary contact
+<br><br>
+<input type="radio" class="r"  name="contact"> &nbsp;Yes,but secondary contact
+<br><br>
+<input type="radio" class="r" name="contact"> &nbsp;Yes, someone in my family was a secondary contact
+<br><br>
+<input type="radio" class="r" name="contact"> &nbsp;No
+<br><br>
+<input type="radio" class="r" name="contact"> &nbsp;I'm not sure
+</fieldset>
+
+<fieldset class="b" required >
+What is the status of your zone of residence? *
+<br><br>
+<input type="radio" class="r" name="zone" required> &nbsp;Consistently Red zone
+<br><br>
+<input type="radio" class="r" name="zone"> &nbsp;Occasionally Red zone
+<br><br>
+<input type="radio" class="r" name="zone"> &nbsp;Orange zone
+<br><br>
+<input type="radio" class="r" name="zone"> &nbsp;Green zone
+<br><br>
+<input type="radio" class="r" name="zone"> &nbsp;I'm not sure
+
+</fieldset>
+<fieldset class="b"  required >
+Do you follow any of these activities regularly? *
+<br><br>
+<input type="checkbox" onblur="return validateCheckbox()"  id="physical"  > &nbsp;Physical exercise
+<br><br>
+<input type="checkbox" id="walk" > &nbsp;Brisk walking
+<br><br>
+<input type="checkbox" id="yoga" > &nbsp;Yoga & Meditation
+<br><br>
+<input type="checkbox" id="none" > &nbsp;None
+
+<span id="bc">&nbsp;</span>
+</fieldset>
+<button class="next"  action="new 1.html" align="center">Next</button>
+</form>
+</div>
+
+
+</body>
+</html>

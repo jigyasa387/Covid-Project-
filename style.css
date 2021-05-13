@@ -1,0 +1,188 @@
+*
+{
+	margin:0;
+	padding:0;
+	
+	font-family:'Poppins',sans-serif;	
+}
+.contact
+{  background:#F8F8FF;
+	position:relative;
+	min-height:100vh;
+	padding:50px 100px;
+    display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	background-size:cover;
+	
+}
+.contact .content{
+	max-width:800px;
+	text-align:center;
+}
+.h1{
+color:#ff751a;
+	font-size:45px;
+	font-weight:520;	
+}
+.contact .content .h2{
+	color:#ff751a;
+	font-size:36px;
+	font-weight:500;
+	
+}
+.contact .content p{
+	font-weight:300;
+	
+}
+.container{
+	width:100%;
+	 display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:35px;
+}
+.container .contactInfo{
+	width:50%;
+	display:flex;
+	flex-direction:column;
+	
+}
+.container .contactInfo .box{
+	position:relative;
+	padding:20px 0px;
+	display:flex;
+}
+.container .contactInfo .box .icon{
+	min-width:60px;
+	height:60px;
+	background: #fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50px;
+	font-size:24px;
+	border:1px solid #333;
+}
+.container .contactInfo .box .text{
+   display:flex;
+   margin-left:20px;
+	font-size:16px;
+	color: #333;
+	flex-direction:column;
+	font-weight:300;
+}
+.container .contactInfo .box .text .h3{
+	font-weight:500;
+	    color:#ff751a;
+
+	
+}
+.contactForm{
+	width:40%;
+	padding:40px;
+	background: #fff;
+	border:2px solid #333;
+}
+.contactForm h2{
+	font-size:30px;
+	font-weight:500;
+	color:#333;	
+}
+.contactForm .inputBox{
+	position:relative;
+	width:100%;
+	margin-top:10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+	width:100%;
+	padding:5px 0;
+	font-size:16px;
+	margin:10px 0;
+	border:none;
+	border-bottom:2px solid #333;
+	outline:none;
+	resize:none;
+	
+}
+}
+.contactForm .inputBox span{
+	position:absolute;
+	left:0;
+	padding:5px 0;
+	font-size:16px;
+	margin:10px 0;
+	pointer-events:none;
+	transition:0.3s;
+	color:#666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span,
+.contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span{
+	color:red;
+	font-size:14px;
+	transform:translateY(-20px);
+}
+.contactForm .inputBox button[type="submit"]
+{   
+	
+	width:100px;
+	
+	background:#ff751a;
+	border:none;
+    cursor:pointer;
+	padding:10px;
+	font-size:18px;
+	
+}
+	body{
+			background-color: #F8F8FF;
+			
+			
+		}
+		table{
+			background-color: #ffff80;
+			color: black;
+		}
+		td{
+			border-radius: 25px;
+			padding: 10px 25px;
+			font-size: 16px;
+			color: black;
+		}
+		.align-center{
+			text-align: center;
+			padding: 10px 50px;
+		}
+		.table {
+            background-color: #ffff80;
+            color: black;
+            display: relative;
+    border:2px solid blue;
+    padding:10px 10px;
+        font-size:16px;
+        }
+        .extra{
+        	padding: 12px 80px;
+        	font-size: 18px;
+        	color: black;
+        }
+        a{
+        	color:black;
+        	text-decoration: none;
+        }
+        .chota{
+        	color:black;
+        }
+
+
+
+
+
+
+
+

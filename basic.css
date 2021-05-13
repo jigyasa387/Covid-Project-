@@ -1,0 +1,46 @@
+h2,h3
+{
+color:red;
+}
+body
+{
+	background-color:hsl(0,0%,100%);
+}
+
+table,td,th
+{
+	border:1px solid #ddd;
+	text-align:left;
+	
+}
+table{
+	border-collapse:collapse;
+	width:100%;
+}
+th,td{
+	padding:15px;
+}
+.head
+{
+	color:red;
+}
+.box
+{
+border:1px solid black;
+}
+.divider{
+	text-align:center;
+background-color:rgb(127 2 51 / 76%);
+
+}
+.center{
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ height:60%;
+}
+.text{
+font-size:30%;
+color:red;
+}
+
